@@ -1,0 +1,26 @@
+{
+  "name": "adobe-xd-vue",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "watch": "nodemon -w src -e js,vue,css -w webpack.config.js -x yarn build",
+    "build": "webpack --mode development"
+  },
+  "license": "none",
+  "private": true,
+  "devDependencies": {
+    "vue-loader": "^15.9.6",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "css-loader": "^5.2.0",
+    "scenegraph": "^0.1.0",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.6.2"
+  }
+}
